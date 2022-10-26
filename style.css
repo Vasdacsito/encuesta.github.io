@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to bottom, #255db8,#01e6ff, rgb(131, 123, 244));
+    filter: blur(150);
+}
+
+
+    form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4em;
+    background-color: rgba(240, 240, 240, 0.533);
+    align-self: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 1px;
+    align-content: Center;
+  }
+  
+  form li + li {
+    margin-top: 2em;
+    align-content: Center;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-box;
+    width: auto;
+    text-align: center;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+    align-content: Center;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    align-content: Center;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 2px solid rgb(48, 38, 38);
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: rgb(0, 0, 0);
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+    margin-block-end: 15px;
+    align-content: Center;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: .5em;
+  }
+  
